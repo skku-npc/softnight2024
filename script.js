@@ -184,7 +184,6 @@ function updateOperationNum() {
                     if (j==1) cops.push('-');
                     if (j==2) cops.push('x');
                 }
-                console.log(cops, getAnswer(nums,cops));
                 if (ansofquestion == getAnswer(nums, cops)) {
                     answer = answer + '(' + cops[0] + ', ' + cops[1] + ') ';
                 }
