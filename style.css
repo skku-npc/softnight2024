@@ -1,0 +1,80 @@
+html, body {
+    margin: 10px;
+    padding: 0;
+    background-color: #384047;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+    align-items: center;
+    width: 100%;
+    max-width: 1000px; /* 선택 사항: 콘텐츠 너비 제한 */
+    margin: 20px auto; /* 상하 여백과 가운데 정렬 */
+}
+
+
+#player1 {
+    float: left;
+    width: 40%;
+}
+#player2 {
+    display: inline-block;
+    width: 40%;
+    margin-left: 200px;
+}
+
+
+td {
+    flex: 1;
+}
+
+.header1 {
+    background-color: #2F558E;
+    height: 5px;
+    cursor: pointer;
+}
+
+.header2 {
+    background-color: rgb(242,242,242);
+    color: black;
+    font-size: 14px;
+    height: 47px;
+    cursor: pointer;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+.result {
+    margin: 20px;
+}
+h5, p {
+    font-size: 13px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+h5 {
+    margin-bottom: 15px;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: none;
+}
